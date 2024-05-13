@@ -1,0 +1,589 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Museo Sans', sans-serif;
+    color: #1F2533;
+
+}
+
+.about_academy {
+    background-image:linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.95)), url('background.png');
+    background-size: cover;
+    width: 100%;
+    height: 840px;
+    margin-top: 0px;
+
+}
+
+.main_about {
+    margin-left: 105px;
+    padding-top: 40px;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#main {
+    color: #215FFF;
+}
+
+#about_academy {
+    color: #878787;
+}
+
+.rectangle_box{
+    display: flex;
+    gap:36px;
+    align-items: center;
+    margin-top: 97px;
+    margin-left: 90px;
+}
+
+.rectangle {
+    clip-path: polygon(100% 1%, 100% 54%, 0 99%, 0 49%);
+    background-color: #215FFF;
+    width: 30px;
+    height: 70px; 
+}
+
+.big_about {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76.8px;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+}
+
+.information_list{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    margin-top: 110px;
+    width: 330px;
+}
+.info_element {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.down_arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-bottom: 3px;
+    border-radius: 1.5px;
+}
+
+#academy_photo {
+    margin-top: 70px;
+    margin-left: 72px;
+    width: 800px; 
+    height: 500px; 
+    border-radius: 10px; 
+}
+
+
+.annotation{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 75px;
+
+}
+
+
+
+#license_photo{
+    width: 402px;
+    height: 567.68px;
+}
+
+.pdf_box{
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+#pdf_icon {
+    width: 50px;
+    height: 50px;
+}
+
+.download_license{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    border-bottom: 1px solid black;
+    padding: 0px;
+}
+
+.license_size{
+    margin-top: 6px;
+    color: #999999;
+}
+
+
+
+
+
+
+.annotation_info{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 669px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.line_header {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+.statistic   {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+
+.grid-container {
+    margin-top: 57px;
+    margin-left:130px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    overflow: auto; 
+    scrollbar-width: thin;
+    scrollbar-color:#FD3C76 #F4F4F6 ; 
+    padding-bottom: 57px;
+}
+
+
+
+.grid-item {
+    width: 440px;
+    height: 220px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 45px rgba(27, 26, 24, 0.1); 
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7px;
+}
+
+.numbers {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    color: #FD3C76;
+}
+
+.achievment{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.6px;
+}
+
+
+
+
+
+
+
+
+
+.ceo_data {
+    margin-top: 120px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    gap:70px
+}
+
+.ceo_information {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+#ceo_photo {
+    width: 370px;
+    height: 500px;
+    border-radius: 10px; 
+}
+
+.ceo_name {
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26.4px;
+}
+
+.ceo_achievments{
+    margin-top: 30px;
+    list-style-position: inside;
+    color: #FD3C76 ;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.ceo_words {
+    margin-top: 28px;
+    padding: 20px;
+    background-color: #F3F6FF;
+    border-radius: 15px;
+    width: 803px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px; 
+    font-style: italic;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 599px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    body {
+        font-family: 'Museo Sans', sans-serif;
+        color: #1F2533;
+    }
+    
+    .about_academy {
+        display: flex;
+        flex-direction: column;
+        background-image: none;
+    }
+    
+    .main_about {
+        margin-left: 50px;
+        padding-top: 40px;
+        line-height: 24px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    #main {
+        color: #215FFF;
+    }
+    
+    #about_academy {
+        color: #878787;
+    }
+    
+    .rectangle_box{
+        display: flex;
+        gap:15px;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    
+    .rectangle {
+        clip-path: polygon(100% 1%, 100% 54%, 0 99%, 0 49%);
+        background-color: #215FFF;
+        width: 10px;
+        height: 30px; 
+    }
+    
+    .big_about {
+        font-weight: 600;
+        font-size: 30px;
+    }
+    
+    .information {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .information_list{
+        display: flex;
+        flex-direction: column;
+        gap: 26px;
+        margin-top: 20px;
+        width: 330px;
+    }
+
+    .info_element {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        gap: 10px;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    .down_arrow {
+        border: solid black;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        margin-bottom: 3px;
+        border-radius: 1.5px;
+    }
+    
+    #academy_photo {
+        width: auto;
+        height: 250px;
+        margin-top: 30px;
+        margin-left: 0px; 
+        border-radius: 10px; 
+    }
+    
+    
+    .annotation{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 125px;
+        gap: 75px;
+    
+    }
+    
+    
+    
+    #license_photo{
+        width: 250px;
+        height: 300px;
+    }
+    
+    .pdf_box{
+        margin-top: 12px;
+        display: flex;
+        align-items: center;
+        gap: 11px;
+    }
+    
+    #pdf_icon {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .download_license{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21.6px;
+        border-bottom: 1px solid black;
+        padding: 0px;
+    }
+    
+    .license_size{
+        margin-top: 6px;
+        color: #999999;
+    }
+    
+    
+    
+    .annotation_info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        width: 100%;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    
+    .description {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .mission {
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+    
+    .line_header {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+
+    .values {
+        padding-right: 120px;
+    }
+    
+    ul {
+        list-style-position: inside;
+    }
+    
+    .statistic   {
+        display: flex;
+
+    }
+    
+    
+    .grid-container {
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: grid;
+        gap: 30px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        overflow: auto; 
+        scrollbar-width: thin;
+        scrollbar-color:#FD3C76 #F4F4F6 ; 
+        padding-bottom: 57px;
+    }
+    
+    
+    
+    .grid-item {
+        width: 220px;
+        height: 110px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 45px rgba(27, 26, 24, 0.1); 
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 7px;
+    }
+    
+    .numbers {
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 72px;
+        color: #FD3C76;
+    }
+    
+    .achievment{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 21.6px;
+    }
+    
+    
+    .ceo_data {
+        margin-top: 70px;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:15px
+    }
+    
+    .ceo_information {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        width: 100%;
+    }
+    
+    #ceo_photo {
+        width: 370px;
+        height: 500px;
+        border-radius: 10px; 
+    }
+    
+    .ceo_name {
+        margin-top:0px;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 26.4px;
+    }
+    
+    .ceo_achievments{
+        margin-top: 30px;
+        list-style-position: inside;
+        color: #FD3C76 ;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 24px;
+    }
+    
+    .ceo_words {
+        margin-top: 28px;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 10px;
+        background-color: #F3F6FF;
+        border-radius: 15px;
+        width: 90%;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px; 
+        font-style: italic;
+    
+    }
+
+}
